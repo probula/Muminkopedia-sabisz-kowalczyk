@@ -11,7 +11,10 @@ export async function createArtifact(
     owner: Types.ObjectId
 ): Promise<Artifact> {
     const newArtifact = new ArtifactM({ name, description, owner });
+
     return newArtifact.save();
+
+
 }
 
 export async function updateArtifactById(
