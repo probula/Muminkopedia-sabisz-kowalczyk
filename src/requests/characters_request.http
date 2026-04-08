@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3000/api/characters
+
+### GET
+GET {{baseUrl}}
+Accept: application/json
+
+### POST
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "name": "Muminek",
+  "description": "Główny bohater, bardzo odważny.",
+  "species": "Muminek",
+  "isHibernating": true,
+  "bestFriend": null
+}
