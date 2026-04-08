@@ -19,5 +19,5 @@ const connectDB = async (): Promise<void> => {
 
 };
 
-    export default connectDB;
+export default connectDB;
 
