@@ -15,3 +15,19 @@ Content-Type: application/json
   "isHibernating": true,
   "bestFriend": null
 }
+
+### PUT
+PUT {{baseUrl}}/69d78e5ea1edf91f300d691d
+Content-Type: application/json
+
+{
+  "name": "Muminek UPDATED",
+  "description": "Zmieniony opis",
+  "species": "Muminek",
+  "isHibernating": false,
+  "bestFriend": null
+}
+
+### DELETE
+DELETE {{baseUrl}}/69d78e5ea1edf91f300d691d
+Accept: application/json

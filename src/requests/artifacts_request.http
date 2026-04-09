@@ -13,3 +13,18 @@ Content-Type: application/json
   "description": "Czarne wysokie nakrycie głowy, które zmienia przedmioty wrzucone do środka.",
   "owner": "65f1a2b3c4d5e6f7a8b9c001"
 }
+
+### PUT
+PUT {{baseUrl}}/69d783dba1edf91f300d691b
+Content-Type: application/json
+
+{
+  "name": "Zmieniony Kapelusz",
+  "description": "Nowy opis",
+  "owner": "65f1a2b3c4d5e6f7a8b9c001"
+}
+
+### DELETE
+DELETE {{baseUrl}}/69d783dba1edf91f300d691b
+Accept: application/json
+
