@@ -4,6 +4,8 @@ import  app from '../app';
 import debug from 'debug';
 import http from 'http';
 
+import connectDB from "./db";
+
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
@@ -16,6 +18,8 @@ const server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+
+connectDB()
 
 
 function normalizePort(val: string): number | string | false {
