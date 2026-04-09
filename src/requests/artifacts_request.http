@@ -1,0 +1,15 @@
+@baseUrl = http://localhost:3000/api/artifacts
+
+### GET
+GET {{baseUrl}}
+Accept: application/json
+
+### POST
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "name": "Zaczarowany Kapelusz",
+  "description": "Czarne wysokie nakrycie głowy, które zmienia przedmioty wrzucone do środka.",
+  "owner": "65f1a2b3c4d5e6f7a8b9c001"
+}
